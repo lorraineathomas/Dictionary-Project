@@ -1,0 +1,16 @@
+body {
+  background-color: #171056;
+}
+
+.Dictionary {
+  max-width: 700px;
+  background-color: white;
+  display: block;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.app-footer {
+  color: white;
+  margin-top: 20px;
+}
