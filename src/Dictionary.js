@@ -8,7 +8,8 @@ export default function Dictionary() {
   let [results, setResults] = useState("");
 
   function handleResponse(response) {
-    setResults = response.data;
+    console.log(response.data[0]);
+    setResults = response.data[0];
     //let def = document.querySelector(".definition");
     //let defined = response.data[0].meanings[0].definitions[0].definition;
     //def.innerHTML = defined;
@@ -16,8 +17,8 @@ export default function Dictionary() {
 
   function search(event) {
     event.preventDefault();
-    alert(`Searching for the definition of ${keyword}`);
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
+    //let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${keyword}&key={73a673doafc73bccb4ff04ct60632486}`;
     axios.get(apiUrl).then(handleResponse);
   }
 
