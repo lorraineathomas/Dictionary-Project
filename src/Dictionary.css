@@ -12,14 +12,11 @@ body {
   height: 100%;
   margin: 0 auto;
   max-width: 700px;
+  padding: 20px;
 }
 
 h1 {
   font-size: 55px;
-}
-
-.results {
-  padding: 25px;
 }
 
 .app-footer {
