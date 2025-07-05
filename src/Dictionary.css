@@ -18,6 +18,10 @@ h1 {
   font-size: 55px;
 }
 
+.results {
+  padding: 25px;
+}
+
 .app-footer {
   color: white;
   margin-top: 20px;
