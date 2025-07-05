@@ -30,6 +30,11 @@ input {
   border: none;
 }
 
+.results {
+  margin-top: 30px;
+  padding: 10px;
+}
+
 .app-footer {
   color: white;
   margin-top: 20px;
